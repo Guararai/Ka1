@@ -1,3 +1,7 @@
+
+
+
+  
 .texto {
 
     text-align: center;
@@ -9,6 +13,26 @@ h1{
 }
 
 body{
+  text-align: center;
 
     background-color: yellow;
+}
+
+.container{
+
+text-align: center;
+
+}
+
+script{
+
+  text-align: center;
+
+}
+
+figure{
+
+  text-align: center;
+
+
 }

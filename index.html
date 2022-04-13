@@ -9,57 +9,56 @@
   <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-<p id="demo"></p>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+  <p id="demo"></p>
 
     <div class="texto">
-
-        <h1>Esse é um site especializado em catalogar Kauans</h1>
-        <p>
-            <h1>E hoje mostrarei para vocês o Kauan mais raro que já encontrei</h1>
-        </p>
+      <figure>
         <p>
             <img src="img/aviso.gif">
         </p>
+      </figure>
         <p>
-            <h1>
-                AS IMAGENS A SEGUIR PODEM SER CONSIDERADAS FORTES E PERTUBADORAS.
-            </h1>
+          
+          
+         
         </p>
         <p>
             <h1>
-                RETIRE AS CRIANÇAS DA SALA.
+                aguarde a surpresa ._. 
+                
             </h1>
+        </p>
+        <p>
+          <script class="texto">
+            // Set the date we're counting down to
+            var countDownDate = new Date("April 23, 2022 18:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+            
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+            
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+              // Display the result in the element with id="demo"
+              document.getElementById("demo").innerHTML = days + " dias " + hours + " horas "
+              + minutes + " minutos e " + seconds + " segundos faltando para a surpressa  ";
+            
+              // If the count down is finished, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+            </script>
         </p>
         
         
